@@ -8,8 +8,8 @@ class CustomDialog extends StatefulWidget {
   final String confirmContent; //按钮文本
   final Color confirmTextColor; //确定按钮文本颜色
   final bool isCancel; //是否有取消按钮，默认为true true：有 false：没有
-  final Color confirmColor; //取消按钮颜色
-  final Color cancelColor; //确定按钮颜色
+  final Color confirmColor; //确定按钮颜色
+  final Color cancelColor; //取消按钮颜色
   final bool outsideDismiss; //点击弹窗外部，关闭弹窗，默认为true true：可以关闭 false：不可以关闭
   final Function confirmCallback; //点击确定按钮回调
   final Function dismissCallback; //弹窗关闭回调
