@@ -173,16 +173,16 @@ class _MyHomePageState extends State<MyHomePage> {
 
   void _showDialog6(String module) {
     showDialog(
-        context: context,
-        barrierDismissible: false,
-        builder: (_) {
-          return CustomDialog(
-              title: '这是一个标题',
-              content: module,
-              isCancel: true,
-              confirmColor: Colors.green[400]
-          );
-        }
+      context: context,
+      barrierDismissible: false,
+      builder: (_) {
+        return CustomDialog(
+          title: '这是一个标题',
+          content: module,
+          isCancel: true,
+          confirmColor: Colors.green[400]
+        );
+      }
     );
   }
 
@@ -218,18 +218,18 @@ class _MyHomePageState extends State<MyHomePage> {
 
   void _showDialog9(String module) {
     showDialog(
-        context: context,
-        barrierDismissible: false,
-        builder: (_) {
-          return CustomDialog(
-            title: '这是一个标题',
-            content: module,
-            isCancel: true,
-            confirmCallback: () {
-              print('-----------点击了确定按钮');
-            },
-          );
-        }
+      context: context,
+      barrierDismissible: false,
+      builder: (_) {
+        return CustomDialog(
+          title: '这是一个标题',
+          content: module,
+          isCancel: true,
+          confirmCallback: () {
+            print('-----------点击了确定按钮');
+          },
+        );
+      }
     );
   }
 

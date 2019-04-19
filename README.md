@@ -14,7 +14,55 @@
 |confirmCallback|点击确定按钮回调|Function|-
 |dismissCallback|弹窗关闭回调|Function|-
 
+### 用法
 
+#### 带有标题的Dialog
+```Dart
+ showDialog(
+   context: context,
+   barrierDismissible: false,
+   builder: (_) {
+     return CustomDialog(
+       title: '这是一个标题',
+       content: '这里是弹窗的提示内容',
+     );
+   }
+ );
+```
+#### 自定义确定按钮颜色
+```Dart
+showDialog(
+  context: context,
+  barrierDismissible: false,
+  builder: (_) {
+    return CustomDialog(
+      title: '这是一个标题',
+      content: '这里是弹窗的提示内容',
+      isCancel: true,
+      confirmColor: Colors.green[400]
+    );
+  }
+);
+```
+#### Dialog按钮点击回调监听
+```Dart
+showDialog(
+  context: context,
+  barrierDismissible: false,
+  builder: (_) {
+    return CustomDialog(
+      title: '这是一个标题',
+      content: '这里是弹窗的提示内容',
+      confirmCallback: () {
+        print('-----------点击了确定按钮');
+      },
+    );
+  }
+);
+```
+更多用例请查看项目中MyHomePage.dart文件。
+
+### 部分效果图
 
 ![img](./show/f1.png)
 
