@@ -16,6 +16,8 @@
 
 ### 用法
 
+```把项目中的CustomDialog.dart文件复制到你的项目中。```
+
 #### 带有标题的Dialog
 ```Dart
  showDialog(
