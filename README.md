@@ -24,7 +24,7 @@
 
 ### 用法
 
-```把项目中的[CustomDialog.dart](https://github.com/liyabin1105/flutter_dialog/blob/master/lib/CustomDialog.dart)文件复制到你的项目中。```
+把项目中的[CustomDialog.dart](https://github.com/liyabin1105/flutter_dialog/blob/master/lib/CustomDialog.dart)文件复制到你的项目中。
 
 #### 带有标题的Dialog
 ```Dart
