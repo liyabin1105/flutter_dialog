@@ -82,4 +82,4 @@ showDialog(
 );
 ```
 
-更多用例请查看项目中MyHomePage.dart文件。
+更多用例请查看项目中[MyHomePage.dart](https://github.com/liyabin1105/flutter_dialog/blob/master/lib/MyHomePage.dart)文件。
