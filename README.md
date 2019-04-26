@@ -1,5 +1,13 @@
 # flutter_dialog
 
+### 部分效果图
+
+![img](./show/f1.png)
+
+![img](./show/f2.png)  ![img](./show/f3.png)  ![img](./show/f5.png)
+
+![img](./show/f6.png)  ![img](./show/f7.png)  ![img](./show/f8.png)
+
 ### 参数说明
 |属性|说明|类型|默认值
 |---|---|---|---
@@ -46,6 +54,19 @@ showDialog(
   }
 );
 ```
+#### 带图片的Dialog
+```Dart
+showDialog(
+  context: context,
+  barrierDismissible: false,
+  builder: (_) {
+    return CustomDialog(
+      image: './images/ic_success.png',
+      imageHintText: '数据加载成功'
+    );
+  }
+);
+```
 #### Dialog按钮点击回调监听
 ```Dart
 showDialog(
@@ -62,6 +83,7 @@ showDialog(
   }
 );
 ```
+
 更多用例请查看项目中MyHomePage.dart文件。
 
 ### 部分效果图
@@ -77,3 +99,7 @@ showDialog(
 ![img](./show/f5.png)
 
 ![img](./show/f6.png)
+
+![img](./show/f7.png)
+
+![img](./show/f8.png)

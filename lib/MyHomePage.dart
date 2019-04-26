@@ -27,6 +27,7 @@ class _MyHomePageState extends State<MyHomePage> {
     listData.add('点击弹窗外部是否能关闭');
     listData.add('点击确定按钮回调');
     listData.add('弹窗关闭回调');
+    listData.add('带有图片的Dialog');
     setState(() {
     });
   }
@@ -96,6 +97,9 @@ class _MyHomePageState extends State<MyHomePage> {
         break;
       case 9:
         _showDialog10(module);
+        break;
+      case 10:
+        _showDialog11(module);
         break;
       default:
         break;
@@ -247,6 +251,19 @@ class _MyHomePageState extends State<MyHomePage> {
             },
           );
         }
+    );
+  }
+
+  void _showDialog11(String module) {
+    showDialog(
+      context: context,
+      barrierDismissible: false,
+      builder: (_) {
+        return CustomDialog(
+          image: './images/ic_success.png',
+          imageHintText: '数据加载成功'
+        );
+      }
     );
   }
 }
