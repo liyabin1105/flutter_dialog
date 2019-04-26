@@ -19,10 +19,12 @@
 |outsideDismiss|点击弹窗外部关闭弹窗，true：可以关闭 false：不可关闭|bool|true
 |confirmCallback|点击确定按钮回调|Function|-
 |dismissCallback|弹窗关闭回调|Function|-
+|image|图片(设置此属性，上面的属性不再生效)|String|-
+|imageHintText|带有图片的dialog文本提示|String|-
 
 ### 用法
 
-```把项目中的CustomDialog.dart文件复制到你的项目中。```
+```把项目中的[CustomDialog.dart](https://github.com/liyabin1105/flutter_dialog/blob/master/lib/CustomDialog.dart)文件复制到你的项目中。```
 
 #### 带有标题的Dialog
 ```Dart
