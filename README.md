@@ -1,7 +1,7 @@
 # flutter_dialog
 
 ### 部分效果图
-![img](./show/f2.png)  ![img](./show/f3.png)  
+![img](./show/f3.png)  ![img](./show/f4.png)  
 ![img](./show/f5.png)  ![img](./show/f6.png)
 ![img](./show/f7.png)  ![img](./show/f8.png)
 ![img](./show/f1.png)
